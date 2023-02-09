@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0-current_working_directory
 * A script that prints the absolute path name of the current working directory.
 
@@ -57,3 +58,6 @@
 
 ##school.mgc
 * a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
+=======
+My first readme 2
+>>>>>>> 65985b2277bf9a635c342513b896b159850ec18b
