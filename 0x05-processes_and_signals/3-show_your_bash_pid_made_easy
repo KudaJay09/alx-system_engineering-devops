@@ -1,10 +1,4 @@
 #!/usr/bin/env bash
 # A Bash script that displays the PID along with the process name, of processes
-for proc in /proc/[0-9*;
-do
-	if greq -q "bash" "$proc/cmdline"
-2>/dev/null; then
-	pid=$(cat "$proc/comm")
-	echo "PID: $pid, Process Name: $name"
-fi
-done
+# whose name contain the word bash.
+pgrep -l bash
