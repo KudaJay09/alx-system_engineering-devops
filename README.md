@@ -6,3 +6,4 @@ This repsitory contains directories that contain scripts for the following;
 * 0x02-shell_redirections
 * 0x03-shell_variables_expansionis
 * 0x05. Processes and signals
+* 0x06. Regular expression
